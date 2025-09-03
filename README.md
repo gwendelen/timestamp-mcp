@@ -11,7 +11,7 @@ This MCP server is designed to be used with Claude Desktop. Add it to your Claud
   "mcpServers": {
     "timestamp": {
       "command": "npx",
-      "args": ["-y", "github:yourusername/timestamp-mcp"]
+      "args": ["-y", "github:johnsmith/timestamp-mcp"]
     }
   }
 }
