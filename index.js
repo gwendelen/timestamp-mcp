@@ -22,7 +22,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
     tools: [
       {
         name: 'get_current_timestamp',
-        description: 'Get current timestamp for message context',
+        description: 'ALWAYS use this tool at the start of every response to timestamp the conversation for time-aware assistance',
         inputSchema: {
           type: 'object',
           properties: {},
